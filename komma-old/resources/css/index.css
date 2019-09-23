@@ -1,0 +1,136 @@
+html {
+      font-style: "Trebuchet MS";
+      font-size: 16px;
+}
+
+/************************/
+/*    General CSS Rules */
+/************************/
+
+h1 {  
+      font-size: 1.5rem;
+      color: #97080C;
+}
+
+.inline-block {
+      display: inline-block;
+}
+
+/****************************/
+/*    Header Section CSS    */
+/****************************/
+
+header {
+      position: fixed;
+      width: 100%;
+      height: 30px;
+      z-index: 10;
+}
+
+      /**************************/
+      /*    Logo Section CSS    */
+      /**************************/
+      
+      .logo {
+            /*    background-image: url("../images/background.jpg"); */
+            background-color: #E8E4E4;
+            background-repeat: no-repeat;
+            background-size: 100%;
+      }
+
+      .logo .company-name {
+            font-size: 1.125rem;
+            font-weight: bold;      
+            text-transform: uppercase;
+            padding: 21px 20px;
+      }
+
+      .logo-left {
+            float: left;
+            padding: 5px 15px;
+            height: 50px;
+            width: 50px;
+      }
+
+      .logo-right {
+            position: relative;
+            float: right;
+            right: 10%;
+            padding: 2px 0;
+            height: 55px;
+            width: 55px;
+      }
+
+      /****************************/
+      /*    NavBar Section CSS    */
+      /****************************/
+
+      .navbar ul {
+      clear: left;      
+      background-color: #336280;
+      width: 100%;
+      }
+
+      .navbar ul li {
+            float: left;
+            width: 20%;
+            padding: 5px 0;
+            text-align: center;
+            font-size: 1.125rem;
+            color: #E8E4E4;      
+            background-color: #336280;
+            
+      }
+
+      .navbar ul a {
+            display: block;      
+            text-align: center;
+      }
+
+      nav ul li:hover, li:active {
+            background-color: #97080C;
+      }
+
+/**************************/
+/*    Main Section CSS    */
+/**************************/
+
+main {
+      position: relative;
+      top: 88px;
+      height: 100%;
+      width: 100%;
+      /*    background-image: url("../images/background.jpg");    */
+      background-color: #E8E4E4;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+main h1 {
+      display: block;
+      text-align: center;
+      padding: 15px 0;
+}
+
+main img {
+      opacity: 0.5;
+}
+
+/****************************/
+/*    Footer Section CSS    */
+/****************************/
+
+footer {
+      /*    background-image: url("../images/background.jpg");  */
+      background-color: #336280;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      color: #E8E4E4;
+      font-size: 1rem;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      z-index: 10;
+      bottom: 0;  
+}
